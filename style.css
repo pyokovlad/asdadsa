@@ -1,0 +1,30 @@
+
+body {
+    background-color: black;
+    background-image: url(logo.png);
+    background-repeat: repeat;
+    background-size: 150px;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.photo {
+    text-align: center;
+    justify-content: center;
+}
+.photo .main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    background-color: darkred;
+    text-align: center;
+    padding: 15px;
+}
+.photo .main a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.photo .main a:hover {
+    color: black;
+}
